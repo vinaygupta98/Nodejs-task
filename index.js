@@ -6,7 +6,7 @@ const PORT =
   process.env.PORT || 4000;
 mongoose
   .connect(
-    "mongodb://localhost:27017/project"
+    "mongodb://localhost:27017/myDb"
   )
   .then(() => {
     console.log(
